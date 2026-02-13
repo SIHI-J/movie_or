@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 13px;
+  color: #333;
+  background-color: #eff3f7;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.header {
+  width: 200px;
+  left: 0px;
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.header h1 {
+  padding: 70px 0px 50px 0px;
+}
+.header .nav1 {
+  line-height: 40px;
+}
+.header .nav1 a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.header .nav1 a:hover {
+  text-decoration: underline;
+}
+
+main {
+  width: calc(100% - 200px);
+  height: 100%;
+  display: flex;
+  top: 0px;
+  left: 200px;
+  padding-top: 50px;
+  overflow: scroll;
+  margin-left: 200px;
+  width: calc(100% - 200px);
+  padding-top: 50px;
+  padding-bottom: 40px;
+  overflow: auto;
+}
+
+.nav {
+  padding-top: 70px;
+  text-align: center;
+}
+.nav li {
+  line-height: 40px;
+}
+.nav a {
+  padding: 5px 10px;
+  color: #5d5d5d;
+  text-shadow: 0px 1px 1px #adadad;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+  line-height: 40px;
+  background-color: #333;
+}
+.footer address {
+  color: #fff;
+  text-align: center;
+  font-style: normal;
+}/*# sourceMappingURL=App.css.map */

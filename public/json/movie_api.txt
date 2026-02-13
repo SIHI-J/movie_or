@@ -1,0 +1,18 @@
+완성1 : junchi86.github.io/max
+완성2 : https://jeon9897.github.io/
+----------------------------------------
+https://yts.mx/api/v2/list_movies.json
+https://yts.mx/api/v2/movie_details.json
+----------------------------------------
+https://yts-proxy.now.sh/list_movies.json
+https://yts-proxy.now.sh/movie_details.json?movie_id=10
+----------------------------------------
+
+
+
+
+
+
+
+
+

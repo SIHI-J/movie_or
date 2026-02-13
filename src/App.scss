@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+$text_color: #333;
+
+//common
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 13px;
+  color: $text_color;
+  background-color: #eff3f7;
+}
+
+a {
+  text-decoration: none;
+  color: $text_color;
+  font-size: 16px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+//header
+.header {
+  width: 200px;
+  left: 0px;
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  h1 {
+    padding: 70px 0px 50px 0px;
+  }
+
+  .nav1 {
+    line-height: 40px;
+
+    a {
+      text-transform: uppercase;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+//main
+main {
+  width: calc(100% - 200px);
+  height: 100%;
+  display: flex;
+  top: 0px;
+  left: 200px;
+  padding-top: 50px;
+  overflow: scroll;
+  margin-left: 200px;
+  width: calc(100% - 200px);
+  padding-top: 50px;
+  padding-bottom: 40px; // ✅ 푸터 높이만큼
+  overflow: auto;
+}
+
+//nav
+.nav {
+  padding-top: 70px;
+  text-align: center;
+
+  li {
+    line-height: 40px;
+  }
+
+  a {
+    padding: 5px 10px;
+    color: #5d5d5d;
+    text-shadow: 0px 1px 1px #adadad;
+  }
+}
+
+//footer
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+  line-height: 40px;
+  background-color: #333;
+
+
+  address {
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+  }
+}
+
+// pc
+@media screen and (min-width: 1025px) {}
+
+// tablet
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
+
+// mobile
+@media screen and (max-width: 767px) {}
